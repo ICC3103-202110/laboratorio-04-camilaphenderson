@@ -19,7 +19,7 @@ function app(counter){
         const currentView = view(counter)
         console.clear()
         console.log(currentView)
-        const msg = prompt('\n\n(+) or (-)\n\n(q) to quit \n\nWhat would you do? ')
+        const msg = prompt('\n\n(+) or (-)\n\n(q) to quit \n\nWhat would you like to do? ')
         if (msg === 'q'){
             console.log('You quit')
             break
