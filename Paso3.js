@@ -12,8 +12,9 @@ function app(counter){
             console.log('You quit')
             break
         }
-        counter = update(msg,counter)
-
-
+        else {
+            counter = update(msg,counter)
+            app(counter)
+        }
     }
 }
